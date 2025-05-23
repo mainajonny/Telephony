@@ -1,4 +1,4 @@
-package com.shounakmulay.telephony.sms
+package com.mainajonny.telephony.sms
 
 import android.Manifest
 import android.Manifest.permission.READ_PHONE_STATE
@@ -14,13 +14,13 @@ import androidx.annotation.RequiresApi
 import androidx.annotation.RequiresPermission
 import androidx.core.content.ContextCompat
 import androidx.core.content.ContextCompat.getSystemService
-import com.shounakmulay.telephony.utils.Constants.ACTION_SMS_DELIVERED
-import com.shounakmulay.telephony.utils.Constants.ACTION_SMS_SENT
-import com.shounakmulay.telephony.utils.Constants.SMS_BODY
-import com.shounakmulay.telephony.utils.Constants.SMS_DELIVERED_BROADCAST_REQUEST_CODE
-import com.shounakmulay.telephony.utils.Constants.SMS_SENT_BROADCAST_REQUEST_CODE
-import com.shounakmulay.telephony.utils.Constants.SMS_TO
-import com.shounakmulay.telephony.utils.ContentUri
+import com.mainajonny.telephony.utils.Constants.ACTION_SMS_DELIVERED
+import com.mainajonny.telephony.utils.Constants.ACTION_SMS_SENT
+import com.mainajonny.telephony.utils.Constants.SMS_BODY
+import com.mainajonny.telephony.utils.Constants.SMS_DELIVERED_BROADCAST_REQUEST_CODE
+import com.mainajonny.telephony.utils.Constants.SMS_SENT_BROADCAST_REQUEST_CODE
+import com.mainajonny.telephony.utils.Constants.SMS_TO
+import com.mainajonny.telephony.utils.ContentUri
 import java.lang.RuntimeException
 
 

@@ -1,4 +1,4 @@
-package com.shounakmulay.telephony
+package com.mainajonny.telephony
 
 import android.app.Activity
 import android.content.Context
@@ -7,9 +7,9 @@ import android.content.pm.PackageManager.PERMISSION_GRANTED
 import android.os.Build
 import androidx.annotation.RequiresApi
 import androidx.core.content.ContextCompat
-import com.shounakmulay.telephony.utils.Constants.PHONE_PERMISSIONS
-import com.shounakmulay.telephony.utils.Constants.SERVICE_STATE_PERMISSIONS
-import com.shounakmulay.telephony.utils.Constants.SMS_PERMISSIONS
+import com.mainajonny.telephony.utils.Constants.PHONE_PERMISSIONS
+import com.mainajonny.telephony.utils.Constants.SERVICE_STATE_PERMISSIONS
+import com.mainajonny.telephony.utils.Constants.SMS_PERMISSIONS
 
 class PermissionsController(private val context: Context) {
 

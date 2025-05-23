@@ -1,12 +1,12 @@
-package com.shounakmulay.telephony
+package com.mainajonny.telephony
 
 import android.content.Context
 import androidx.annotation.NonNull
-import com.shounakmulay.telephony.sms.IncomingSmsHandler
-import com.shounakmulay.telephony.utils.Constants.CHANNEL_SMS
-import com.shounakmulay.telephony.sms.IncomingSmsReceiver
-import com.shounakmulay.telephony.sms.SmsController
-import com.shounakmulay.telephony.sms.SmsMethodCallHandler
+import com.mainajonny.telephony.sms.IncomingSmsHandler
+import com.mainajonny.telephony.utils.Constants.CHANNEL_SMS
+import com.mainajonny.telephony.sms.IncomingSmsReceiver
+import com.mainajonny.telephony.sms.SmsController
+import com.mainajonny.telephony.sms.SmsMethodCallHandler
 import io.flutter.embedding.engine.plugins.FlutterPlugin
 import io.flutter.embedding.engine.plugins.activity.ActivityAware
 import io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding

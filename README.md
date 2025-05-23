@@ -4,7 +4,7 @@
     <a href="https://github.com/shounakmulay/Telephony/releases" alt="Release">
         <img src="https://img.shields.io/github/v/release/shounakmulay/telephony" /></a>
     <a href="https://github.com/shounakmulay/Telephony/actions/workflows/Telephony_CI.yml?query=branch%3Adevelop" alt="Build">
-        <img src="https://github.com/shounakmulay/telephony/actions/workflows/Telephony_CI.yml/badge.svg?branch=develop" /></a>
+        <img src="https://github.com.mainajonny.telephony/actions/workflows/Telephony_CI.yml/badge.svg?branch=develop" /></a>
 </p>
 
 
@@ -171,7 +171,7 @@ List<SmsConversation> messages = await telephony.getConversations(
 		...
 		...
 
-		<receiver android:name="com.shounakmulay.telephony.sms.IncomingSmsReceiver"
+		<receiver android:name="com.mainajonny.telephony.sms.IncomingSmsReceiver"
 		    android:permission="android.permission.BROADCAST_SMS" android:exported="true">
 		    <intent-filter>
 			<action android:name="android.provider.Telephony.SMS_RECEIVED"/>

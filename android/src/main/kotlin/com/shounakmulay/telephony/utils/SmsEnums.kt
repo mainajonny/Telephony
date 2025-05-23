@@ -1,4 +1,4 @@
-package com.shounakmulay.telephony.utils
+package com.mainajonny.telephony.utils
 
 import android.net.Uri
 import android.provider.Telephony

@@ -1,4 +1,4 @@
-group 'com.shounakmulay.telephony'
+group 'com.mainajonny.telephony'
 version '1.0-SNAPSHOT'
 
 buildscript {
